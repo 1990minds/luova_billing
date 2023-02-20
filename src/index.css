@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,800&display=swap");
+
+body,
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+:root {
+  --brandColor: #1569a1;
+  --backgroundColor: #f1e3e3;
+  --acentColor: #3a7195;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+}
+
+.ant-layout-sider-children {
+  box-shadow: 0px 5px 8px 1px #29292938 !important;
+}
+
+.ant-btn[disabled] {
+  border-color: transparent !important;
+}
+
+.ant-btn-primary svg {
+  font-size: 1rem !important;
+  transform: translateY(-3px);
+}
+
+.ant-pagination-item-link > .anticon {
+  transform: translateY(-2px) !important;
+}
+
+.ant-form-item-label > label {
+  letter-spacing: 0.2px !important;
+  color: #444444e8 !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+  font-size: 20px !important;
+  background-color: #ffffff !important;
+}
+
+thead[class*="ant-table-thead"] th {
+  background-color: grey !important;
+  color: rgb(250, 250, 250) !important;
+  font-size: 1.1rem;
+  font-weight: 400 !important;
+}
+
+.ant-table table {
+  border-spacing: 0 0.4rem !important;
+}
+
+.ant-table table > tr {
+  padding: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+  height: 52px !important;
+}
+
+.ant-table-thead > tr > th {
+  padding: 0.4rem 0.6rem !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-table-tbody > tr > td {
+  font-family: "Poppins", sans-serif !important;
+
+  padding: 0.2rem 0.6rem !important;
+  background-color: #f1f6f9 !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+.ant-table-row-expand-icon {
+  background: #f1f6f9 !important;
+  border: 1px solid #f1f6f9 !important;
+  transform: scale(1.34117647) !important;
+  transform-origin: center !important;
+}
+.ant-table-row-expand-icon:focus {
+  outline: none !important;
+}
+.ant-table-row-expand-icon::before,
+.ant-table-row-expand-icon::after {
+  background-color: var(--brandColor) !important;
+}
+
+p {
+
+  margin-bottom: 0 !important
+}
+
+.ant-table-tbody > tr > td {
+
+padding: 10px !important;
+}
+
+.ant-layout-content {
+
+  border:1px solid #e5e5e5;
+  border-radius:12px;
+}
+.ant-table-row {
+  height: 40px !important;
+}
+.ant-table-row p,
+.ant-table-row h5,
+.ant-table-row svg {
+  margin: 0 !important;
+}
+.ant-space-item {
+  height: 30.3px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-checkbox-inner::after {
+  top: 40% !important;
+  left: 13% !important;
+  width: 6.71428571px !important;
+  height: 9.14285714px !important;
+}
+
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  top: 50% !important;
+  left: 50% !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.ant-table-thead > tr > th {
+  text-transform: capitalize !important;
+  text-align: center !important;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: center !important;
+  font-size: 0.8rem;
+}
+
+.ant-select-arrow {
+  color: var(--brandColor) !important;
+}
+
+.ant-modal-body .ant-select-arrow {
+  color: rgb(172, 171, 171) !important;
+}
+
+.ant-table-filter-trigger {
+  color: #ffffff !important;
+}
+
+.ant-menu {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+  background: #f4f9ff !important;
+  margin-bottom: 7px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-collapse-ghost
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  background: #f1f6f9 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.8rem !important;
+}
+
+.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow
+  svg {
+  transition: 1s;
+  font-size: 0.8rem !important;
+  color: var(--brandColor) !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.513);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
